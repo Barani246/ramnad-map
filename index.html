@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ramnad Site Management</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+
+            <div class="top">
+
+                <button id="toggleBtn">☰</button>
+
+                <h2>Ramnad Sites</h2>
+
+            </div>
+
+            <div class="search-container">
+
+                <input
+                    type="text"
+                    id="searchBox"
+                    placeholder="Search by Site Name or Number">
+
+            </div>
+
+            <ul id="siteList"></ul>
+
+        </div>
+
+        <!-- Map -->
+        <div id="map"></div>
+
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
