@@ -1,0 +1,26 @@
+[
+    {
+      "id":1,
+      "name":"Keeranur",
+      "lat":9.422472,
+      "lng":78.224417
+    },
+    {
+      "id":2,
+      "name":"Parukkaikudi",
+      "lat":9.441306,
+      "lng":78.524444
+    },
+    {
+      "id":3,
+      "name":"Mudimannarkottai",
+      "lat":9.435100,
+      "lng":78.260100
+    },
+    {
+      "id":4,
+      "name":"KM Kottai",
+      "lat":9.426306,
+      "lng":78.244556
+    }
+  ]
