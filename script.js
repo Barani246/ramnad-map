@@ -101,12 +101,28 @@ loadSites(filtered);
 
 toggleBtn.onclick=()=>{
 
-sidebar.classList.toggle("hide");
+    sidebar.classList.add("hide");
 
-setTimeout(()=>{
+    showSidebar.style.display="block";
 
-map.invalidateSize();
+    setTimeout(()=>{
 
-},300);
+        map.invalidateSize();
+
+    },300);
+
+};
+
+showSidebar.onclick=()=>{
+
+    sidebar.classList.remove("hide");
+
+    showSidebar.style.display="none";
+
+    setTimeout(()=>{
+
+        map.invalidateSize();
+
+    },300);
 
 };
