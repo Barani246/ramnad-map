@@ -99,17 +99,21 @@ loadSites(filtered);
 
 });
 
-toggleBtn.onclick=()=>{
+toggleBtn.onclick = () => {
 
-    sidebar.classList.add("hide");
+    if (sidebar.classList.contains("hide")) {
 
-    showSidebar.style.display="block";
+        sidebar.classList.remove("hide");
 
-    setTimeout(()=>{
+    } else {
 
+        sidebar.classList.add("hide");
+
+    }
+
+    setTimeout(() => {
         map.invalidateSize();
-
-    },300);
+    }, 300);
 
 };
 
