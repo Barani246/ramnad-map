@@ -19,15 +19,16 @@ html,body{
 
 #sidebar{
     width:320px;
+    min-width:320px;
     background:#fff;
     border-right:1px solid #ddd;
-    transition:.3s;
+    transition:0.3s ease;
     overflow-y:auto;
+    z-index:1000;
 }
 
 #sidebar.hide{
-    width:0;
-    overflow:hidden;
+    margin-left:-320px;
 }
 
 .top{
