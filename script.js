@@ -11,6 +11,7 @@ attribution:'© OpenStreetMap'
 
 const sidebar=document.getElementById("sidebar");
 const toggleBtn=document.getElementById("toggleBtn");
+const showSidebar=document.getElementById("showSidebar");
 const searchBox=document.getElementById("searchBox");
 const siteList=document.getElementById("siteList");
 
